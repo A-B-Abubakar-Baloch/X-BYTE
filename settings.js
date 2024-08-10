@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by TalkDrove*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923072380380' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '923461253726' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -59,7 +59,7 @@ module.exports = { //exporting modules to use in plugins
 //----------------Session ID------------------------------//
 //////////////////////////////////////////////////////////////////
 
-SESSION_ID: process.env.SESSION_ID || '', //Paste your session ID here
+SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0ZVWE41YjI3dmM1ckE5OWxJalpnWXl3YTFNNndDV3BCbUc5YUliVmMzRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWjBpRE5neDQ1c3BBS2pUUG9XekNvZDZNVWZydHB2UU1Yb0wvTGwxdW9TST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzSjRTbDFCVVNhY1JZT0NDeXNYeFZVRGljU2J4cEsvd0JGV0V3RlJsRVV3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI3YkN1cEx4YXRHUjM4MzdsZTAvOHdtQVFlOXg4VTlPd3JnKy9NcHBvNVhRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndHclkzRjBTbkV3V05lK2hqZUl5dnNJNkZBSjZxOXZtTzFrT3IxZzdyMTg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ilg5L3N3VE9PallzaU5LRmRtOWhaaXd2RHZrQkVKVWtJblY4YXdkQUp0Vzg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNEZoaXR4MzhndXZOV04rbTRlT1AzN1JhUXlhQ3RmcS9XZ0N0bDlEdnNGdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZEZGbkR4U0JoTThPUWowd0tlWTgzMExSTXhkaXhkREhEK1BHL0h4SFpEYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkYyOTZUTmM4RThleWh6am9iTklzem0xV2p0dU1Md2Y1UEJYZXN3WHVJai9IM28vUVU4RmpDRE85Y3NoUmU1aDkwS2ppbEpxV2Rna1FZY3RWcDE5N0JBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjA5LCJhZHZTZWNyZXRLZXkiOiJOZ3ptc3RXTHRGOTJBYldUem5GenlleGpqNkRJeDMvcHdLN0F5NFFJT3pNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJoNEhnS1pSMlRncXc4RHUwSEhPd0R3IiwicGhvbmVJZCI6IjdlZGM3OGY2LTM5M2YtNDAxYi05Y2IzLTliZWY3MzllYzg2OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0SElkbU9LQUhVTC9NNjQyQlFtb1I3dDNzSzg9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQVZQL1laSnFqOTZxUWdQb2tZa3Bqb1hrNFBjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjVBS1c5SEpZIiwibWUiOnsiaWQiOiI5MjM0NjEyNTM3MjY6NzJAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0lqT2hmY0RFTEtlM2JVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkVVVEFqMWlUWjgwMjZzaHR4dTFRQUozWUgrUDIwV29HTTk5MlowdzU5SFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6Inh6VmZ4LzcrSytKM3g5YmhOY1JHMjgxTFcyTGhCZGJCZHd1WGxFaUthMjJiSnhTWUcvWnRPaWExQUM1L3ZtWkFhR2xPcXlnV2hwaFJ0RzA2ZVFaS0RRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJHN3ZRT0ZrL2FTNzFVRUZjZHpvaDJwZFVyWUxTMVFiNExONGVJRVBIdG5qU05iWldkKytyVng2M0dqQVlLeHpRMHRLNTdxVmh0cDNXdGgzUWNVdVVDUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzQ2MTI1MzcyNjo3MkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJSRkV3STlZazJmTk51ckliY2J0VUFDZDJCL2o5dEZxQmpQZmRtZE1PZlIxIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIzMjg5NDA3LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU1aaSJ9', //Paste your session ID here
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -104,7 +104,7 @@ MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'Hamza' , //Your name
+OWNER_NAME: process.env.OWNER_NAME || 'Abubakar' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
